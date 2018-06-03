@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#############################################################################
+#
+# Autor: Sandro F. Brito
+#
+# Descrição: Contar a quantidade de arquivos com formatos .txt, .pdf, .jpg
+#            e .md existem no diretório /home/sandro/*
+#
+#############################################################################
+
 velho_IFS=$IFS
 IFS=$'\n'
 
